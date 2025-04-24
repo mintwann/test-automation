@@ -2,10 +2,10 @@ import pytest
 
 if __name__ == "__main__":
     pytest.main([
-        "tests/",             # đường dẫn tới thư mục chứa test
-        "-v",                 # hiển thị chi tiết
-        "--tb=short",         # traceback ngắn gọn
-        "--html=reports/report.html",     # file báo cáo
-        "--self-contained-html"           # nhúng CSS/JS vào file HTML (không phụ thuộc file ngoài)
+        "tests/",             # path to testcase files
+        "-v",                 # display verbose output
+        "--tb=short",         # short traceback
+        "--html=reports/report.html",     # report file path
+        "--self-contained-html"           # include CSS and JS in the report
     ])
     
