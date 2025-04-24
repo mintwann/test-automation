@@ -9,7 +9,10 @@ test/
 ├── config/
 │   └── settings.py         # Configuration settings
 ├── pages/
+│   ├── base_page.py        # Base page object with common methods
 │   └── login_page.py       # Page object for login functionality
+├── reports/                # Test execution reports
+│   └── report.html         # HTML test report
 ├── screenshots/            # Test failure screenshots
 │   └── YYYY-MM-DD/         # Organized by date
 ├── tests/
@@ -20,8 +23,11 @@ test/
 │   └── helpers.py          # Helper functions
 ├── .env                    # Environment variables (not committed to Git)
 ├── .gitignore              # Git ignore file
+├── .pytest_cache/          # Pytest cache directory
 ├── README.md               # Project documentation
-└── requirements.txt        # Python dependencies
+├── requirements.txt        # Python dependencies
+├── run.py                  # Script to run tests with HTML reporting
+└── test.py                 # Simple test script for quick testing
 ```
 
 ## Setup Instructions
