@@ -105,6 +105,9 @@ env/
 # Screenshots
 screenshots/
 
+# Reports
+reports/
+
 # IDE specific files
 .idea/
 .vscode/
